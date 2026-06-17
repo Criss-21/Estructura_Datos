@@ -1,7 +1,12 @@
 /*
 condicionales
-if / else
 */
+//if
+let numero = 10;
+if (numero > 0) {
+    console.log("El número es positivo");
+}
+// if / else
 let edad = 18;
 if (edad >= 18) {
     console.log("Eres mayor de edad");
@@ -9,19 +14,17 @@ if (edad >= 18) {
     console.log("Eres menor de edad");
 }
 
-//bucle for
-for (let i = 0; i < 5; i++) {
-    console.log(i);
+//if / else if / else
+let calificacion = 85;
+if (calificacion >= 90) {
+    console.log("Excelente");
+} else if (calificacion >= 80) {
+    console.log("Muy bien");
+} else {
+    console.log("Necesitas mejorar");
 }
 
- //bucle while
-let j = 0;
-while (j < 5) {
-    console.log(j);
-    j++;
-}
-
-//bucle switch
+//switch
 let dia = "Lunes";
 switch (dia) {
     case "Lunes":
@@ -34,3 +37,4 @@ switch (dia) {
         console.log("No es lunes ni martes");
         break;
 }
+
