@@ -38,3 +38,14 @@ switch (dia) {
         break;
 }
 
+
+//Clase 17/06/2026
+
+let nombre = "Fernando"
+if (nombre === "Cristian") {
+    console.log("Hola Fer")
+} else if (nombre === "Cristian") {
+    console.log("Hola Cris")
+} else {
+    console.log("No encontré tu nombre")
+}
