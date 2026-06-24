@@ -15,5 +15,4 @@ carrito.agregarProducto(p2, 1);
 
 carrito.actualizarCantidad(1, 2); 
 
-
 console.log(`\n Total calculado : ${carrito.calcularTotal()}`);
